@@ -1,6 +1,7 @@
 # include<stdio.h>
 
-int mian(void)
+
+int main(void)
 {
     float r,volume;
     r = 1;
