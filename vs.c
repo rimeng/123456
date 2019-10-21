@@ -1,13 +1,11 @@
-# include<stdio.h>
-
-
+# include<stdio.h> 
 int main(void)
 {
-    float r,volume;
-    r = 1;
-    volume = 4 / 3.0* 3.14 * r * r * r;
-    printf("volme is %f",volume);
-    return 0 ;
+   int t,h ;
+    printf("Enter t;\n");
+    scanf("%d",&t);
+    printf("h is %d\n",5*t*t);/*h=1/2*g*t*t，此时g=10，这化简为5*/
+return 0;
   }
    
     
